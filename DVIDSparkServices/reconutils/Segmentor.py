@@ -800,7 +800,7 @@ class Segmentor(object):
                         small_overlap_prune += 1
                     elif (stitch_mode == 1) and (max_val / float(total_val) < conservative_overlap):
                         conservative_prune += 1
-                    elif (stitch_mode == 3) and (max_val / float(total_val) > conservative_overlap) and (max_val > liberal_lb):
+                    elif stitch_mode == 3:
                         merge_list.append([int(bodysave), int(body2)])
                         # do not add
                         retired_list.add((int(bodysave), int(body2))) 
@@ -849,7 +849,7 @@ class Segmentor(object):
                         small_overlap_prune += 1
                     elif (stitch_mode == 1) and (max_val / float(total_val) < conservative_overlap):
                         conservative_prune += 1
-                    elif (stitch_mode == 3) and (max_val / float(total_val) > conservative_overlap) and (max_val > liberal_lb):
+                    elif stitch_mode == 3:
                         merge_list.append([int(body1), int(bodysave)])
                         aggressive_add += 1
                     elif int(body1) in mutual_list:
