@@ -1,0 +1,11 @@
+{
+  "dvid-info": {
+    "dvid-server": "slowpoke3:32788",
+    "uuid": "341635bc8c864fa5acbaf4558122c0d5",
+    "source": "groundtruth-eroded7_z_gte_5024"
+  },
+  "options": {
+    "blankdelimiter": 0,
+    "xrunlimit": 0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "dvid-info": {
+    "dvid-server": "slowpoke3:32788",
+    "uuid": "341635bc8c864fa5acbaf4558122c0d5",
+    "source": "run_1208_6-400000-0.960-85th-aggressive-eroded7_z_gte_5024"
+  },
+  "options": {
+    "resource-server": "slowpoke3",
+    "resource-port": 12000,
+    "blankdelimiter": 0,
+    "xrunlimit": 0
+  }
+}

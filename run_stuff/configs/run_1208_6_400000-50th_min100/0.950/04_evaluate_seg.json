@@ -1,0 +1,28 @@
+{
+  "dvid-info": {
+    "dvid-server": "slowpoke3:32788",
+    "uuid": "341635bc8c864fa5acbaf4558122c0d5",
+    "label-name": "groundtruth-eroded7_z_gte_5024",
+    "roi": "seven_column_eroded7_z_gte_5024",
+    "point-lists": [
+      "annotations/gtsynapses_eval"
+    ],
+    "stats-location": "run_1208_6-400000-0.950-50th_min100-aggressive-eroded7_z_gte_5024-stats",
+    "user-name": "grisaitisw"
+  },
+  "dvid-info-comp": {
+    "dvid-server": "slowpoke3:32788",
+    "uuid": "341635bc8c864fa5acbaf4558122c0d5",
+    "label-name": "run_1208_6-400000-0.950-50th_min100-aggressive-eroded7_z_gte_5024"
+  },
+  "options": {
+    "body-threshold": 1000,
+    "point-threshold": 10,
+    "chunk-size": 256,
+    "boundary-size": 2,
+    "resource-server": "slowpoke3",
+    "resource-port": 12000,
+    "important-bodies": []
+  },
+  "debug": true
+}

@@ -1,0 +1,26 @@
+{
+  "dvid-info": {
+    "dvid-server": "slowpoke3:32788",
+    "uuid": "341635bc8c864fa5acbaf4558122c0d5",
+    "segmentation-name": "run_1208_6-400000-0.880-50th_min100-aggressive-eroded7_z_gte_5024",
+    "roi": "seven_column_eroded7_z_gte_5024",
+    "grayscale": "grayscale"
+  },
+  "options": {
+    "segmentor": {
+      "class": "DVIDSparkServices.reconutils.plugins.precomputedpipeline",
+      "configuration": {
+        "segpath": "/nrs/turaga/grisaitisw/affinities/run_1208_6/400000/fib25-e402c09-2017.01.20-17.37.16.segmentations.7.50th.minsize100.eroded7_z_gte_5024/0.880000"
+      }
+    },
+    "resource-server": "slowpoke3",
+    "resource-port": 12000,
+    "stitch-algorithm": "aggressive",
+    "chunk-size": 512,
+    "label-offset": 0,
+    "iteration-size": 0,
+    "checkpoint": "none",
+    "checkpoint-dir": "",
+    "debug": false
+  }
+}

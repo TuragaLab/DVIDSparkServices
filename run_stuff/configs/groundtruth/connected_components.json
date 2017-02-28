@@ -1,0 +1,13 @@
+{
+  "dvid-info": {
+    "dvid-server": "slowpoke3:32788",
+    "uuid": "341635bc8c864fa5acbaf4558122c0d5",
+    "roi": "seven_column_eroded7_z_gte_5024",
+    "segmentation": "groundtruth",
+    "newsegmentation": "groundtruth-eroded7_z_gte_5024"
+  },
+  "options": {
+    "chunk-size": 128,
+    "debug": false
+  }
+}
